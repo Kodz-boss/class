@@ -19,6 +19,7 @@
 //&& and
 //|| or
 //! not
+//++increment
 
 
 
@@ -56,5 +57,7 @@
 // }else{
 //     echo "Sorry, you may not enter.";
 // }
+
+
 
 ?>
