@@ -10,16 +10,16 @@
 // echo $fruits[3] . "<br>";
 // echo $fruits[4] . "<br>";
 
-// $fruits = array("apple", "banana", "cherry", "date", "elderberry");
+$fruits = array("apple", "banana", "cherry", "date", "elderberry");
 
-// //add a new Item at the end
-// $fruits[] = "fig";
+//add a new Item at the end
+$fruits[] = "fig";
 
 //loop through and display the array
 
-// foreach($fruits as $fruit){
-//     echo $fruit . "<br>";
-// }
+foreach($fruits as $fruit){
+    echo $fruit . "<br>";
+}
 
 //combining them together
 

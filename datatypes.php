@@ -2,13 +2,13 @@
 //string
 $name = "kodi";
 
-//integer
+//integer - whole numbers
 $age = 20;
 
-//float
+//float - decimal numbers
 $price = 26.8;
 
-//boolean 
+//boolean - true/false
 $isstudent = true;
 
 
