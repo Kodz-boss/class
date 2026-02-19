@@ -62,4 +62,7 @@
     //Array functions
 
     $
-$primes = [1, 2, 3, 5, 7, 9, 11, 13, 17, 19];
+$primes = [19, 2, 7, 13, 5, 1, 9, 3, 17, 11];
+
+sort($primes);
+echo "sorted";
