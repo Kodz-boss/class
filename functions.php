@@ -58,3 +58,8 @@
 
     // //Generate a random number between 1 and 100
     // echo rand(1, 100) . "<br>";
+
+    //Array functions
+
+    $
+$primes = [1, 2, 3, 5, 7, 9, 11, 13, 17, 19];
