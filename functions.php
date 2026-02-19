@@ -61,13 +61,25 @@
 
     //Array functions
 
-    $
-$primes = [19, 2, 7, 13, 5, 1, 9, 3, 17, 11];
+    $numbers = [5, 2, 8, 1, 9, 3, 7];
 
-sort($primes);
-echo "sorted: ";
-foreach($primes as $prime){
-    echo $prime . " ";
+    // Sort in ascending order
+    sort($numbers);
+    echo "Sorted: ";
+    foreach ($numbers as $num) {
+        echo $num . " ";
+    }
+    echo "<br>";
 
-}
-echo "<br>";
+    // Find the total
+    echo "Sum: " . array_sum($numbers) . "<br>";
+
+    // Find the highest value
+    echo "Highest: " . max($numbers) . "<br>";
+
+    // Find the lowest value
+    echo "Lowest: " . min($numbers) . "<br>";
+
+    // Count items
+    echo "Count: " . count($numbers) . "<br>";
+?>
