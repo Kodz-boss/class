@@ -61,25 +61,50 @@
 
     //Array functions
 
-    $numbers = [5, 2, 8, 1, 9, 3, 7];
+    // $numbers = [5, 2, 8, 1, 9, 3, 7];
 
-    // Sort in ascending order
-    sort($numbers);
-    echo "Sorted: ";
-    foreach ($numbers as $num) {
-        echo $num . " ";
-    }
-    echo "<br>";
+    // // Sort in ascending order
+    // sort($numbers);
+    // echo "Sorted: ";
+    // foreach ($numbers as $num) {
+    //     echo $num . " ";
+    // }
+    // echo "<br>";
 
-    // Find the total
-    echo "Sum: " . array_sum($numbers) . "<br>";
+    // // Find the total
+    // echo "Sum: " . array_sum($numbers) . "<br>";
 
-    // Find the highest value
-    echo "Highest: " . max($numbers) . "<br>";
+    // // Find the highest value
+    // echo "Highest: " . max($numbers) . "<br>";
 
-    // Find the lowest value
-    echo "Lowest: " . min($numbers) . "<br>";
+    // // Find the lowest value
+    // echo "Lowest: " . min($numbers) . "<br>";
 
-    // Count items
-    echo "Count: " . count($numbers) . "<br>";
+    // // Count items
+    // echo "Count: " . count($numbers) . "<br>";
+
+
+    //variable scope
+    // $message = "I am outside the function";
+
+    // function testScope($msg) {
+    //     echo $msg;
+    // }
+
+    // testScope($message);
+
+
+    //working with strings in depth 
+    $firstName = "Chuka";
+    $lastName = "Ada";
+
+    //using the dot operator
+    $fullName = $firstName . "" . $lastName;
+    echo $fullName . "<br>";
+
+    //using variables directly in double quotes
+    echo "Hello, $firstName $lastName!<br>";
+
+    //curly braces for clarity
+    echo " Hello, {$firstName} {$lastName}!<br>";
 ?>
